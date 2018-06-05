@@ -13,14 +13,15 @@
    <meta name="format-detection" content="telephone=no"/>
  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,all">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+ <!--menu scroll-->
+ <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="css/adaptive-menu.default.css">
  </head>
  <body>
 	<div class="wrapper">
-		<!--menu-scroll-->
-		
-		<!--end menu-scroll-->
-		<div class="header hidden-pc">
-			<div class="header-top hidden-pc">
+
+		<div class="header show-pc">
+			<div class="header-top show-pc">
 				<div class="left-headertop">
 					
 				</div>
@@ -37,9 +38,9 @@
 					</ul>
 				</div>
 			</div>
-			<div class="clear hidden-pc"></div>
-			<div class="header-bottom hidden-pc">
-				<div class="menu hidden-pc">
+			<div class="clear show-pc"></div>
+			<div class="header-bottom show-pc">
+				<div class="menu show-pc">
 					<ul>
 						<li><a href="#">home</a></li>
 						<li><a href="#">all about kyushu</a></li>
@@ -48,7 +49,7 @@
 						<li><a href="#">model routes</a></li>
 					</ul>
 				</div>
-				<div class="social hidden-pc">
+				<div class="social show-pc">
 					<ul>
 						<li><a href="#"></a></li>
 						<li><a href="#"></a></li>
@@ -62,26 +63,9 @@
 				<img src="images/colorborder.png" class="w-100">
 			</div>
 		</div>
-		<!--menu scroll-->
-		<a href="#navi" class="navi-trigger hidden-sp show-sp"> <span class="navi-icon">MENU</span> </a> 
-		<div id="navi" class="navi">
-		  <div class="navigation-wrapper">
-			<div class="half-block">
-			  <h2>Navigation</h2>
-			  <nav>
-				<ul class="primary-navi">
-				  <li><a href="#">Link 1</a></li>
-				  <li><a href="#">Link 2</a></li>
-				  <li><a href="#">Link 3</a></li>
-				  <li><a href="#">Link 4</a></li>
-				</ul>
-			  </nav>
-			</div>
-		  </div>
-		</div>
-		<!---end menu scroll-->
+		
 		<!--menu-sp-->
-		<header class="hidden-sp show-sp">
+		<header class="show-sp">
 			<nav id='cssmenu'>
 			<div class="logo"><a href="index.html"></a></div>
 			<div id="head-mobile"></div>
@@ -92,7 +76,6 @@
 			<li><a href='#'>Promotions</a></li>
 			<li><a href='#'>Contest</a></li>
 			<li><a href='#'>Blog</a></li>
-			<li><a href='#'>CONTACT</a></li>
 			<li><a href='#'>Add an Attraction</a></li>
 			<li><a href="#">Sign up / Log in</a></li>
 			<li><a href="#"><i class="fas fa-search"></i></a></li>
@@ -108,8 +91,8 @@
 		<div class="clear"></div>
 		
 		<div class="slider">
-			<img src="images/dummy.jpg" class="w-100 hidden-pc">
-			<img src="images/レイヤー 640_sp.jpg" class="show-sp hidden-sp w-100-sp">
+			<img src="images/dummy.jpg" class="w-100 show-pc">
+			<img src="images/レイヤー 640_sp.jpg" class="show-sp w-100-sp">
 			<p class="title-slider">Deep Touch the kyushu</p>
 		</div>
 		
@@ -122,7 +105,7 @@
 						<li><a href="#">DEEP TOUCH THE KYUSHU</a></li>
 						<li><a href="#">01 RAMEN</a></li>
 						<li><a href="#">02 HOTSPRINGS</a></li>
-						<li><a href="#">03 NATUR</a></li>
+						<li><a href="#">03 NATURE</a></li>
 						<li><a href="#">04 TRENDS</a></li>
 					</ul>
 				</div>
@@ -131,11 +114,25 @@
 		
 		<div class="clear"></div>
 		
+		<!--menu scroll-->
+		<div class="wrapmenu">
+			<nav>
+				<ul class="nav menu topmenu">
+					<li><a href="#">home</a></li>
+					<li><a href="#">all about kyushu</a></li>
+					<li><a href="#">visit kyushu now</a></li>
+					<li><a href="#">deep touch the kyushu</a></li>
+					<li><a href="#">model routes</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!---end menu scroll-->
+		
 		<div class="content">
 			<div class="section-1">
 				<div class="inner">
 				
-					<div class="link hidden-pc">
+					<div class="link show-pc">
 						<ul>
 							<li><a href="#">HOME</a></li>
 							<li><a href="#">></a></li>
@@ -146,28 +143,28 @@
 					</div>
 					<!--content-1-s1-->
 					<div class="content-1-s1">
-					<img src="images/ramenimg.png" class="ramenimg hidden-pc">
-					<img src="images/chopstickimg.png" class="chopstickimg hidden-pc">
+					<img src="images/ramenimg.png" class="ramenimg show-pc">
+					<img src="images/chopstickimg.png" class="chopstickimg show-pc">
 						<div class="inner">
 							<p class="title-s1"><span class="number">01</span>RAMEN</p>
-							<img src="images/Section1.png" class="mg-auto show-pc hidden-pc">
-							<img src="images/Section1_sp.png" class="mg-auto hidden-sp show-sp w-150">
+							<img src="images/Section1.png" class="mg-auto show-pc">
+							<img src="images/Section1_sp.png" class="mg-auto show-sp w-150">
 							<p class="title-2-s1">Tonkotsu ramen, which is taking the world by storm,<br>
 							was born in Kyushu</p>
-							<div class="box-ph01  hidden-pc">
+							<div class="box-ph01  show-pc">
 								<img src="images/ph01.jpg" class="ph01">
 								<p>A bowl of ramen of the oldest existing tonkotsu ramen shop, Nankinsenryo</p>
 							</div>
-							<div class="box-ph01-sp hidden-sp show-sp">
-								<img src="images/レイヤー 1358_sp.jpg" class="ph01-sp hidden-sp show-sp">
+							<div class="box-ph01-sp show-sp">
+								<img src="images/レイヤー 1358_sp.jpg" class="ph01-sp show-sp">
 							</div>
-							<p class="text-1 hidden-pc">Recently, Japanese ramen has been gaining popularity all around the world, almost reaching the level of popularity earned by sushi. Ramen has a wide variety of soups, noodles, and ingredients, including tonkotsu (pork bone) soup, shoyu (soy sauce) soup, miso soup, and original noodles. There are numerous kinds of local ramen all over Japan. Among others, tonkotsu ramen has been gaining fans around the world, as a “hot” Japanese dish. Kyushu is the birthplace of tonkotsu ramen and the “holy ground of tonkotsu,” with its deeply-rooted tonkotsu ramen culture. This article will start with introducing the history of the origin and spread of Kyushu Ramen.</p>
-							<p class="text-3 hidden-sp show-sp">Recently, Japanese ramen has been gaining popularity all around the world, almost reaching the level of popularity earned by sushi. Ramen has a wide variety of soups, noodles, and ingredients, including tonkotsu (pork bone) soup, shoyu (soy sauce) soup, miso soup, and original noodles. There are numerous kinds of local ramen all over Japan. Among others, tonkotsu ramen has been gaining fans around the world, as a “hot” Japanese dish. Kyushu is the birthplace of tonkotsu ramen and the “holy ground of tonkotsu,” with its deeply-rooted tonkotsu ramen culture. This article will start with introducing the history of the origin and spread of Kyushu Ramen.</p>
+							<p class="text-1 show-pc">Recently, Japanese ramen has been gaining popularity all around the world, almost reaching the level of popularity earned by sushi. Ramen has a wide variety of soups, noodles, and ingredients, including tonkotsu (pork bone) soup, shoyu (soy sauce) soup, miso soup, and original noodles. There are numerous kinds of local ramen all over Japan. Among others, tonkotsu ramen has been gaining fans around the world, as a “hot” Japanese dish. Kyushu is the birthplace of tonkotsu ramen and the “holy ground of tonkotsu,” with its deeply-rooted tonkotsu ramen culture. This article will start with introducing the history of the origin and spread of Kyushu Ramen.</p>
+							<p class="text-3 show-sp">Recently, Japanese ramen has been gaining popularity all around the world, almost reaching the level of popularity earned by sushi. Ramen has a wide variety of soups, noodles, and ingredients, including tonkotsu (pork bone) soup, shoyu (soy sauce) soup, miso soup, and original noodles. There are numerous kinds of local ramen all over Japan. Among others, tonkotsu ramen has been gaining fans around the world, as a “hot” Japanese dish. Kyushu is the birthplace of tonkotsu ramen and the “holy ground of tonkotsu,” with its deeply-rooted tonkotsu ramen culture. This article will start with introducing the history of the origin and spread of Kyushu Ramen.</p>
 						</div>
 					</div>
 					<!--end content-1-s1-->
 					<!--content-2-s1-pc-->
-					<div class="content-2-s1 hidden-pc">
+					<div class="content-2-s1 show-pc">
 						<p class="title-2-s1">Tonkotsu ramen, which is taking the world by storm,<br>
 						was born in Kyushu</p>
 						<p class="text-1">Kyushu Ramen is a collective term for local noodles in Kyushu, including Hakata Ramen and Kumamoto Ramen. Although thickness of the noodles and ingredients may vary, the soup, which is the base of the dish, is uniformly white, cloudy tonkotsu soup. When talking about Kyushu Ramen, one must mention Kurume City (Fukuoka Prefecture) which is said to be the birthplace of tonkotsu ramen.</p>
@@ -192,7 +189,7 @@
 					</div>
 					<!--end content-2-s1-pc-->
 					<!--content-2-s1-sp-->
-					<div class="content-2-s1-sp hidden-sp show-sp">
+					<div class="content-2-s1-sp show-sp">
 						<div class="boxs-s1-sp">
 							<ul>
 								<li>
@@ -208,7 +205,7 @@
 					</div>
 					<!--content-2-s1-sp-->
 					<!--content-3-s1-->
-					<div class="content-3-s1 hidden-pc">
+					<div class="content-3-s1 show-pc">
 						<p class="title-2-s1">From Kurume to all over Kyushu</p>
 						<p class="text-1">Sankyu, who created the white, cloudy tonkotsu soup, later opened branches in Saga City (Saga Prefecture) and Tamana City (Kumamoto Prefecture). The founders of famous ramen shops, including Keika, Komurasaki, Ajisen Ramen, and Shoyoken, visited the Tamana branch of Sankyu to learn the taste of the new tonkotsu soup and later opened their own shops of tonkotsu ramen in Kumamoto City, creating a new type, Kumamoto Ramen, which is characterized by deep-fried garlic chips. In addition, Miyazaki Ramen also traces its origin to Kurume.</p>
 						<p class="text-2">As described above, tonkotsu ramen, which was born in Kurume, spread all over Kyushu in a radial fashion and developed as original ramen in each area. Another contributor to the prevalence of tonkotsu ramen is long-distance truck drivers. They spread the reputation of tonkotsu ramen all over Japan. Recently, ramen shops from Fukuoka extended their business not only to other areas across the country but also all over the world, further enhancing its popularity.
@@ -228,7 +225,7 @@
 					</div>
 					<!--end content-3-s1-->
 					<!--content-3-s1-sp-->
-					<div class="content-3-s1-sp hidden-sp show-sp">
+					<div class="content-3-s1-sp show-sp">
 						<p class="title-2-s1">From clear tonkotsu soup to white, cloudy soup</p>
 						<p class="text-1">However, the first ramen noodles created at Nankinsenryo were different from the typical tonkotsu ramen we see nowadays. The soup used to be somewhat clear.
 						<br>So, how and when was the white, cloudy soup born? It was at Sankyu in Kurume City, which started up in 1947, 10 years after Nankinsenryo created the tonkotsu ramen.
@@ -236,7 +233,7 @@
 					</div>
 					<!--end content-3-s1-sp-->
 					<!--content-4-s1-sp-->
-					<div class="content-4-s1-sp hidden-sp show-sp">
+					<div class="content-4-s1-sp show-sp">
 						<p class="title-2-s1">From Kurume to all over Kyushu</p>
 						<p class="text-1">Sankyu, who created the white, cloudy tonkotsu soup, later opened branches in Saga City (Saga Prefecture) and Tamana City (Kumamoto Prefecture). The founders of famous ramen shops, including Keika, Komurasaki, Ajisen Ramen, and Shoyoken, visited the Tamana branch of Sankyu to learn the taste of the new tonkotsu soup and later opened their own shops of tonkotsu ramen in Kumamoto City, creating a new type, Kumamoto Ramen, which is characterized by deep-fried garlic chips. In addition, Miyazaki Ramen also traces its origin to Kurume.</p>
 						<p class="text-2">As described above, tonkotsu ramen, which was born in Kurume, spread all over Kyushu in a radial fashion and developed as original ramen in each area. Another contributor to the prevalence of tonkotsu ramen is long-distance truck drivers. They spread the reputation of tonkotsu ramen all over Japan. 
@@ -261,14 +258,14 @@
 			
 			<div class="section-2">
 				<div class="inner">
-					<img src="images/Section2.png" class="mg-auto show-pc hidden-pc">
-					<img src="images/Section2_sp.png" class="mg-auto hidden-sp show-sp w-150">
+					<img src="images/Section2.png" class="mg-auto show-pc">
+					<img src="images/Section2_sp.png" class="mg-auto show-sp w-150">
 					<p class="title-s2" style="margin-top:10px;">HAKATA RAMEN</p>
-					<img src="images/シェイプ 36.png" class="mg-auto show-pc hidden-pc">
-					<img src="images/シェイプ 36_sp.png" class="mg-auto hidden-sp show-sp line-s2">
-					<img src="images/レイヤー.png" class="mg-auto show-pc hidden-pc">
-					<img src="images/レイヤー_sp.png" class="mg-auto hidden-sp show-sp feature">
-					<div class="boxs-s2 hidden-pc">
+					<img src="images/シェイプ 36.png" class="mg-auto show-pc">
+					<img src="images/シェイプ 36_sp.png" class="mg-auto show-sp line-s2">
+					<img src="images/レイヤー.png" class="mg-auto show-pc">
+					<img src="images/レイヤー_sp.png" class="mg-auto show-sp feature">
+					<div class="boxs-s2 show-pc">
 						<ul>
 							<li>
 								<a href="#">
@@ -310,7 +307,7 @@
 					</div>
 					
 					<!--boxs-s2-sp-->
-					<div class="boxs-s2-sp hidden-sp show-sp">
+					<div class="boxs-s2-sp show-sp">
 						<ul>
 							<li>
 								<a href="#">
@@ -358,10 +355,10 @@
 			
 			<div class="section-3">
 				<div class="inner">
-					<img src="images/Section3.png" class="mg-auto show-pc hidden-pc pdtop-50">
-					<img src="images/Section3.png" class="mg-auto hidden-sp show-sp w-150 pdtop-50">
+					<img src="images/Section3.png" class="mg-auto show-pc pdtop-50">
+					<img src="images/Section3.png" class="mg-auto show-sp w-150 pdtop-50">
 					<p class="title-2-s1">Dummy Kyushu pig bone ramen with different taste in the area</p>
-					<div class="boxs-s3 hidden-pc">
+					<div class="boxs-s3 show-pc">
 						<ul>
 							<li><a href="#">
 								<img src="images/長方形 644.jpg" class="img-s3">
@@ -380,7 +377,7 @@
 							</a></li>
 						</ul>
 					</div>
-					<div class="boxs-s3 hidden-pc">
+					<div class="boxs-s3 show-pc">
 						<ul>
 							<li><a href="#">
 								<img src="images/レイヤー 665.jpg" class="img-s3">
@@ -400,7 +397,7 @@
 						</ul>
 					</div>
 					<!--boxs-s3-sp-->
-					<div class="boxs-s3-sp hidden-sp show-sp mgtop-30">
+					<div class="boxs-s3-sp show-sp mgtop-30">
 						<ul>
 							<li><a href="#">
 								<img src="images/レイヤー 646_sp.jpg" class="img-s3-sp">
@@ -441,28 +438,28 @@
 			<div class="clear"></div>
 			
 			<div class="section-4">
-				<div class="inner-1290 hidden-pc">
+				<div class="inner-1290 show-pc">
 					<p class="title-s4">RELATED ARTICLES<p>
 					<div class="boxs-s4">
 						<ul>
 							<li>
-								<img src="images/レイヤー 1352.jpg" class="w-100 hidden-pc">
-								<img src="images/レイヤー 1352_sp.jpg" class="img-s4 hidden-sp show-sp ">
+								<img src="images/レイヤー 1352.jpg" class="w-100 show-pc">
+								<img src="images/レイヤー 1352_sp.jpg" class="img-s4 show-sp">
 							</li>
 							<li>
-								<img src="images/レイヤー 1353.jpg" class="w-100 hidden-pc">
+								<img src="images/レイヤー 1353.jpg" class="w-100 show-pc">
 							</li>
 							<li>
-								<img src="images/レイヤー 1355.jpg" class="w-100 hidden-pc">
+								<img src="images/レイヤー 1355.jpg" class="w-100 show-pc">
 							</li>
 							<li>
-								<img src="images/レイヤー 1356.jpg" class="w-100 hidden-pc">
+								<img src="images/レイヤー 1356.jpg" class="w-100 show-pc">
 							</li>
 						</ul>
 					</div>
 				</div>
 				<!--inner-560-->
-				<div class="inner hidden-sp show-sp">
+				<div class="inner show-sp">
 					<p class="title-s4">RELATED ARTICLES<p>
 					<div class="boxs-s4-sp">
 						<ul>
@@ -491,13 +488,14 @@
 		<div class="footer">
 			<p class="text-footer">&#169;2017 Japan National Tourism Organization</p>
 		</div>
-		
+			
 	</div>
 	
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	
 	<script  src="js/menu-sp.js"></script>
-	<script src="js/modernizr.js"></script>
-	<script>
+	<script src="js/jquery.adaptive-menu.js"></script>
+	<script type="text/javascript">
 	jQuery(document).ready(function($){
 		var isLateralNavAnimating = false;
 		
@@ -515,7 +513,23 @@
 				});
 			}
 		});
+		
+		var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36251023-1']);
+	  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+		$(function () {
+		  $('.wrapmenu').adaptiveMenu();
+		});
 	});
-	</script>
+	
+  </script>
  </body>
 </html>
