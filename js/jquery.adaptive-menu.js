@@ -16,7 +16,7 @@
   $.fn.adaptiveMenu = function (options) {
 
     var settings = $.extend({
-      query : 768,
+      query : 641,
       append: 'body',
       callback: function() {}
     },options||{});

@@ -260,7 +260,6 @@ p.title-slider{
 .title-submenu ul li:first-child:hover{
 	display: inline-block;
 	background:#ffffff;
-	padding:10px;
 	border:1px solid;
 }
 
@@ -609,11 +608,12 @@ nav{position:relative;width:980px;margin:0 auto;}
 }
 
 /*menu scroll*/
-.wrapmenu { }
+.wrapmenu {}
 
 .wrapmenu ul {
   margin: 0;
   list-style: none;
+  background: #333;
 }
 
 .wrapmenu li {
@@ -869,7 +869,13 @@ nav{position:relative;width:980px;margin:0 auto;}
 	#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
 
 	/*menu scroll*/
-
+	.text-menu{
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		margin-bottom: -75px;
+		color: white;
+	}
 }
 
 @media only screen and (max-width: 411px) {
